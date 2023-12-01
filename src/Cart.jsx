@@ -28,8 +28,8 @@ export default function Cart() {
         .redirectToCheckout({
           lineItems: lineItems,
           mode: "payment",
-          successUrl: "https://react-tutorial.app/app.html",
-          cancelUrl: "https://react-tutorial.app/app.html",
+          successUrl: "https://super-market-project.vercel.app/",
+          cancelUrl: "https://super-market-project.vercel.app/",
           customerEmail: email,
         })
         .then((response) => {
